@@ -1,0 +1,17 @@
+@mixin textancre{
+    text-decoration: none;
+    color: black;
+}
+@mixin police400{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+@mixin police700{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+@mixin passagesourisvert{
+    &:hover{
+        color: $sec;
+    }
+}

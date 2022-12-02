@@ -1,0 +1,78 @@
+section{
+    position: relative;
+    width: 85%;
+    height: 90vh;
+    margin: auto;
+    background-color: white;
+    background-image: url(./assets/right.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 1em rgb(85, 84, 84);
+    #partietexte{
+        width:85%;
+        margin: auto;
+        padding-top: 5%;
+        h2{
+            margin-top: 0;
+            margin-bottom:1.5%;
+            font-size: 2.5rem;
+            @include police400;
+        }
+        h1{
+            margin-top: 0;
+            margin-bottom:1.5%;
+            font-size: 4rem;
+            @include police700;
+        }
+        p{
+            width:35%;
+            @include police400;
+        }
+        form{
+            padding-top:3%;
+            select{
+                border-radius: 1rem;
+                border-color: $sec;
+                padding:1%;
+                font-size: 1.25rem;
+                width: 35%;
+                @include police400;
+            }
+        }
+        #txtHint{
+            width:100%;
+            padding:2%;
+            padding-left: 0;
+            display: flex;
+            justify-content: flex-start;
+            align-self: flex-start;
+            a{
+                @include police400;
+                @include textancre;
+                font-size: 1.5rem;
+                color: $sec;
+                &:hover{
+                    cursor: url(./assets/Hand\ Up.png), auto;
+                    color: $sec;
+                }
+                
+            }
+        }
+        #textarenepopulaires{
+            width:100%;
+            padding:0;
+            display:flex;
+            justify-content: flex-start;
+            span{
+                @include police400;
+            }
+        }
+    }
+    #palmier{
+        margin: 0;
+        z-index:1;
+        position: absolute;
+        top: 74%;
+        right: 88%;
+    }
+}

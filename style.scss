@@ -1,0 +1,12 @@
+@import 'variable';
+@import 'mixin';
+@import 'header';
+@import 'sectionune';
+
+body{
+    padding-top: 2.5%;
+    background-color: $prim;
+    margin:0;
+    display: flex;
+    align-self: center;
+}

@@ -1,0 +1,40 @@
+header{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    img{
+        padding-top: 1%;
+    }
+    ul{
+        width:80%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        li{
+            width: 15%;
+            list-style: none;
+            a{
+                @include textancre;
+                @include police400;
+                @include passagesourisvert;
+            }
+        }
+    }
+    #boutonlogin{
+        width:10%;
+        height: 2rem;
+        border: solid;
+        border-radius: 0.5em;
+        border-width: 0.1em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        a{
+            @include textancre;
+            @include police400;
+        }
+    }
+}
